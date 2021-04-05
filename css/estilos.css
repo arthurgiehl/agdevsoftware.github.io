@@ -1,0 +1,438 @@
+body {
+    font-family:"open sans", helvetica, arial, sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+a{
+    color: #000;
+}
+
+/* HEADER */
+
+header #apresentacao {
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+header #apresentacao .qmsoueubotao {
+    padding-bottom: 15px;
+}
+
+header #apresentacao .bottom {
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+header #qmsoueu .fotoperfil {
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+header nav h1 a {
+    text-decoration: none;
+    text-align: center;
+}
+
+ul.menu,
+ul.redes-sociais {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+}
+
+ul.menu li.menu-item {
+    list-style-type: none;
+    padding: 15px;
+}
+
+ul.redes-sociais li.redes-sociais-item {
+    list-style-type: none;
+    padding: 10px;
+}
+
+ul.redes-sociais li.redes-sociais-item:last-child {
+    padding-right: 20px
+}
+
+
+ul.menu li.menu-item a,
+ul.redes-sociais li.redes-sociais-item a {
+    text-decoration: none;
+    color: black;
+}
+
+ul.menu li.menu-item a.active {
+    color: #d7c2f0;
+}
+
+ul.redes-sociais {
+    position: absolute;
+    right: 0px;
+} 
+
+nav {
+    background-image: linear-gradient(to bottom, #449FA1, #000);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+nav p{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-family: inherit;
+}
+
+nav a{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #FFF;
+    font-size: larger;
+    font-family: inherit;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+nav ul li{
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+nav ul li a{
+    padding: 10px 0px;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+/* navegacao */
+
+ #logo{
+    background-color: black;
+    padding: 70px 0px;  
+} 
+
+#logo .logo {
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    background-color: black;
+    align-items: center;
+}
+
+.botao{
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+    background-color: black;
+    border-radius: 10px;
+}   
+
+/* sobre */
+
+#sobre {
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 0px auto;
+    justify-content: space-around;
+}
+
+#sobre .sobremim {
+    display: flex;
+    width: 30%;
+    text-align: center;
+    flex-direction: column;
+}
+
+#sobre .sobremim2 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+/* serviços */
+
+#servicos{
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+#servicos h2 p{
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+#servicoz {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+#servicoz a p{
+    color: black;
+}
+
+#b{
+    width: 10%;
+}
+
+#contato{
+    text-align: center;
+    padding: 20px 0px 10px;
+}
+
+#contato .bottom {
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: large;
+}
+
+#sobre-serv{
+    text-align: center;
+    padding: 0px;
+}
+
+#sobre-serv .bottom {
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: large;
+}
+
+#servicos {
+    padding-bottom: 20px;
+}
+
+/* contato */
+
+#contatinho {
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 10px;
+}
+ 
+#contatinho .instagram {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 0px 15px;
+}
+
+#contatinho .whatsapp {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;     
+    padding: 5px 5px;
+} 
+
+#contatinho .instagram a p{
+    color: black;
+}
+
+#contatinho .whatsapp a p{
+    color: black;
+}
+
+#contatinho .bemzen {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 15px 424px;
+}
+
+#servicoz .bemzen h2{
+    font-family: pacifico, sans-serif;
+}
+
+#contatinho .telefone{
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#contatinho .telefone img{
+    align-items: center;
+    width: 150px;
+}
+
+#contatinho .telefone p a{
+    padding-bottom: 20px;
+    color: black;
+}
+
+#contatinho a p{
+    color: black;
+}
+
+#botao{
+    margin-top: 30px;
+    padding: 40px;
+    text-align: center;
+}
+
+#botao .botao {
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    align-items: center;
+    background-color:black;
+    color:white;
+    width: 100%;
+    flex-direction: row;
+    padding: 15px 0px;
+}
+
+#agmenor .agmenor img {
+    align-items: center;
+    width: 5%;
+} 
+
+.agmenor img{
+    align-items: center;
+    width: 5%;
+}
+
+/* mensagem */
+
+#form {
+    align-items: center;
+}
+
+#form .formsla {
+    align-items: center;
+}
+
+#form .send-clear {
+    align-items: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+
+    /* nav */
+
+    header nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li{
+        padding-left: 0px;
+    }
+
+     ul.redes-sociais {
+        position: relative;
+        flex-direction: row;
+    } 
+
+    nav{
+        flex-direction: column;
+    }
+
+    nav ul{
+        flex-direction: column;
+    }
+
+    /* sobre */
+
+    #sobre {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    #sobre .sobremim {
+        width: 45%;
+    }
+    
+    #sobre .sobremim2 {
+        width: 45%;
+    }
+
+    .bemzen {
+        padding-top: 40px;
+    }
+
+    .bemzen p{
+        padding: 0px 30px;
+    }
+
+    /* contato */
+    .telefone p a{
+        color: black;
+    }
+
+    #contatinho .instagram{
+        padding-top: 5px;
+    }
+
+    /* footer */
+
+    #agmenor .agmenor img{
+        width: 15%;
+    }
+
+    .agmenor img {
+        width: 15%;
+    }
+
+}
+
+
+  
